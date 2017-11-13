@@ -1,0 +1,38 @@
+body {
+	display:flex;
+	width:90vw;
+	height:90vh;
+	align-items: center;
+	justify-content:center;;
+}
+#body {
+	display:flex;
+	height: 210px;
+	width: 480px;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-between;
+	border: dashed;
+    perspective: 1000px;
+}
+#div {
+	margin:5px;
+    height: 200px;
+    width: 400px;
+    left: 50px;
+    border: solid;
+    border-color: red;
+}
+#div.red{
+    border-color: red;
+}
+#div.green{
+    border-color: green;
+}
+.ansver {
+    width: 50px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
